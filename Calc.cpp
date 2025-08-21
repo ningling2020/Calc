@@ -42,7 +42,6 @@ void Calc::calc(){
 	QString value2 = lineEdit2->text();
 	double d1 = value1.toDouble(NULL);
 	double d2 = value2.toDouble(NULL);
-	qDebug("%f", d1);
 	QString value = QString::number(d1 + d2);
 	lineEdit3->setText(value);
 }
